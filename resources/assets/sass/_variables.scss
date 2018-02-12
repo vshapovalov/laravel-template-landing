@@ -1,0 +1,54 @@
+// colors
+$color-gray-dark: #3c3c3c;
+$color-gray-light: #bababa;
+$color-gray-lighter: #d6d6d6;
+$color-black: #1d1d1d;
+$color-white: #fff;
+$color-white-dark: #fafafa;
+$color-accent: #b69176;
+$color-accent-lighter: #d5c2b5;
+
+// Typography
+$font-family-title: "Open Sans", sans-serif;
+$font-family-text: "Open Sans", sans-serif;
+
+$font-size-base: 14px;
+
+$line-height-base: 1.6;
+
+$text-color: $color-black;
+
+// header
+$header-xs-height: 60px;
+$header-sm-height: 80px;
+$header-md-height: 120px;
+
+// basic sizes
+
+$media-sm: 768px;
+$media-sm-margins: 22px;
+
+$media-md: 992px;
+$media-md-margins: 26px;
+
+$media-lg: 1200px;
+$media-lg-margins: 30px;
+
+$page-xs-border-width: 0;
+$page-sm-border-width: 0;
+$page-md-border-width: 0;
+$page-lg-border-width: 0;
+
+/************* z-indexes *************/
+$z-content: 70;
+$z-header: 80;
+$z-overlay: 92;
+$z-modal: 92;
+
+$font-size-0: 28px;
+$font-size-1: 24px;
+$font-size-2: 18px;
+$font-size-3: 16px;
+$font-size-4: 14px;
+
+

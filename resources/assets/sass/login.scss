@@ -1,0 +1,26 @@
+@import "variables";
+@import "common";
+
+body.login{
+  form{
+    padding: 10px;
+    width: 100%;
+
+    .form-group {
+      input[type="text"],input[type="email"],input[type="password"], button{
+        width: 100%;
+        padding: 5px;
+      }
+    }
+
+    @include tablet-land(){
+      margin: 10px auto;
+      width: 60%;
+    }
+
+    @include desktop(){
+      margin: 10px auto;
+      width: 400px;
+    }
+  }
+}

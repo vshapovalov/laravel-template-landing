@@ -1,0 +1,152 @@
+/************* z-indexes *************/
+html {
+  overflow-x: hidden;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+* {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+h1, h2, h3, h4, h5, h6, ul, menu, dir, p, blockquote {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+[role="button"] {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+@media (min-width: 992px) {
+  .inline-block-md {
+    display: inline-block;
+  }
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (min-width: 992px) {
+  .text-justify-md {
+    text-align: justify;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .text-center {
+    text-align: center;
+  }
+}
+
+.text-left {
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .text-left-md {
+    text-align: left;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media (min-width: 992px) {
+  .text-right-md {
+    text-align: right;
+  }
+}
+
+body.login form {
+  padding: 10px;
+  width: 100%;
+}
+
+body.login form .form-group input[type="text"], body.login form .form-group input[type="email"], body.login form .form-group input[type="password"], body.login form .form-group button {
+  width: 100%;
+  padding: 5px;
+}
+
+@media (min-width: 992px) {
+  body.login form {
+    margin: 10px auto;
+    width: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body.login form {
+    margin: 10px auto;
+    width: 400px;
+  }
+}
